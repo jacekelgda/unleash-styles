@@ -1,13 +1,11 @@
-
-/* global test, expect */
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import Logo from '../index'
+import Avatar from '../Avatar'
 
-test('Logo renders correctly', () => {
+test('Avatar renders correctly', () => {
   const tree = renderer.create(
-    <Logo />
+    <Avatar label="test" />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })

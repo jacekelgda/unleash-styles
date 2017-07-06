@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs renders correctly 1`] = `
+<nav
+  className="Tabs"
+>
+  <ul
+    className="TabsList"
+  >
+    <li
+      className="Tab"
+    >
+      <a
+        className="TabLink"
+        href="index.html"
+      >
+        <span>
+          test
+        </span>
+      </a>
+    </li>
+    <li
+      className="Tab"
+    >
+      <a
+        className="TabLink"
+        href="index.html"
+      >
+        <span>
+          test2
+        </span>
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

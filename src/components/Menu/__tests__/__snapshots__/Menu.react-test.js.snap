@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders correctly 1`] = `
+<nav
+  className="Menu"
+>
+  <div
+    onClick={[Function]}
+  >
+    <div
+      className="MenuButton"
+    />
+  </div>
+  <ul
+    className="MenuList false"
+  />
+</nav>
+`;
+
+exports[`Menu renders with MenuItems 1`] = `
+<nav
+  className="Menu"
+>
+  <div
+    onClick={[Function]}
+  >
+    <div
+      className="MenuButton"
+    />
+  </div>
+  <ul
+    className="MenuList false"
+  >
+    <li
+      className="MenuItem"
+    >
+      test
+    </li>
+    <li
+      className="MenuItem"
+    >
+      test2
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Menu renders with MenuItems and custom menu button 1`] = `
+<nav
+  className="Menu"
+>
+  <div
+    onClick={[Function]}
+  >
+    <div>
+      <input
+        className="AvatarButton"
+        id="avatar_button"
+        onClick={undefined}
+        type="checkbox"
+      />
+      <label
+        className="AvatarButtonLabel"
+        for="avatar_button"
+      >
+        test
+      </label>
+    </div>
+  </div>
+  <ul
+    className="MenuList false"
+  >
+    <li
+      className="MenuItem"
+    >
+      test
+    </li>
+    <li
+      className="MenuItem"
+    >
+      test2
+    </li>
+  </ul>
+</nav>
+`;

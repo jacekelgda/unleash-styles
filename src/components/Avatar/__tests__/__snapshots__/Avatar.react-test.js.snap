@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar renders correctly 1`] = `
+<div>
+  <input
+    className="AvatarButton"
+    id="avatar_button"
+    onClick={undefined}
+    type="checkbox"
+  />
+  <label
+    className="AvatarButtonLabel"
+    for="avatar_button"
+  >
+    test
+  </label>
+</div>
+`;
