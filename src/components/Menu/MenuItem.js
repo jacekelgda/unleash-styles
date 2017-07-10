@@ -40,7 +40,9 @@ class MenuItem extends Component {
 }
 
 MenuItem.propTypes = {
+  /** Text on menu item */
   label: PropTypes.string,
+  /** Type of menu item: link, important, email */
   type: PropTypes.string,
 }
 

@@ -3,6 +3,10 @@ import PropTypes from 'prop-types'
 import styles from './Menu.css'
 import MenuButton from './MenuButton'
 
+/**
+ * Menu component can be used to build list menus. They are hidden by defaul
+ * but with menu button click they show up
+ */
 class Menu extends Component {
   constructor(props) {
     super(props);
@@ -38,7 +42,9 @@ Menu.defaultProps = {
 }
 
 Menu.propTypes = {
+  /** Component that triggers opening and closing menu*/
   menuButton: PropTypes.object,
+  /** Set true if you would like menu to be opened always */
   alwaysOpened: PropTypes.bool,
 }
 

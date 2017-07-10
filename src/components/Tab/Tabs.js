@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import styles from './Tabs.css'
 
+/**
+ * Tabs component that hosts tab components
+ */
 class Tabs extends Component {
   render() {
     return (

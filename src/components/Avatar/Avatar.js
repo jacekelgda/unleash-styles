@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styles from './Avatar.css'
 
+/**
+ * Avatar component which can be used in relation to user profile
+ */
 class Avatar extends Component {
   render() {
     const { label } = this.props
@@ -15,6 +18,7 @@ class Avatar extends Component {
 }
 
 Avatar.propTypes = {
+  /** Label will be used for displaying text on avatar */
   label: PropTypes.string,
 }
 

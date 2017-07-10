@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styles from './Tab.css'
 
+/**
+ * Tab element on tabs component
+ */
 class Tab extends Component {
   render() {
     const { label } = this.props
@@ -16,6 +19,7 @@ class Tab extends Component {
 }
 
 Tab.propTypes = {
+  /** Text on tab */
   label: PropTypes.string,
 }
 
