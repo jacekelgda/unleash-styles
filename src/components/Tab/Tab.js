@@ -13,7 +13,7 @@ class Tab extends Component {
         <a href="index.html" className={styles.TabLink}>
           <span>{label}</span>
         </a>
-			</li>
+      </li>
     )
   }
 }

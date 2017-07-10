@@ -43,7 +43,7 @@ Menu.defaultProps = {
 
 Menu.propTypes = {
   /** Component that triggers opening and closing menu*/
-  menuButton: PropTypes.object,
+  menuButton: PropTypes.node,
   /** Set true if you would like menu to be opened always */
   alwaysOpened: PropTypes.bool,
 }

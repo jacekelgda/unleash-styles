@@ -6,36 +6,26 @@ const TYPE_LINK = 'link'
 const TYPE_IMPORTANT = 'important'
 const TYPE_EMAIL = 'email'
 
+const typeStyle = {
+  link: styles.MenuItemLink,
+  important: styles.MenuItemName,
+  email: styles.MenuItemEmail
+}
+
 class MenuItem extends Component {
+  renderLink(label) {
+    return(
+      <a href="#" className={styles.MenuItemLink}>{label}</a>
+    )
+  }
+
   render() {
     const { label, type } = this.props
-    let element
-    switch (type) {
-      case TYPE_LINK:
-        return (
-          <li className={styles.MenuItem}>
-            <a href="" className={styles.MenuItemLink}>{label}</a>
-          </li>
-        )
-      case TYPE_IMPORTANT:
-        return (
-          <li className={`${styles.MenuItem} ${styles.MenuItemName}`}>
-            {label}
-          </li>
-        )
-      case TYPE_EMAIL:
-        return (
-          <li className={`${styles.MenuItem} ${styles.MenuItemEmail}`}>
-            {label}
-          </li>
-        )
-      default:
-        return (
-          <li className={styles.MenuItem}>
-            {label}
-          </li>
-        )
-    }
+    return (
+      <li className={`${styles.MenuItem} ${typeStyle[type]}`}>
+        {type == TYPE_LINK ? this.renderLink(label) : label}
+      </li>
+    )
   }
 }
 
