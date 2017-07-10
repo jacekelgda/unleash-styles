@@ -32,12 +32,12 @@ exports[`Menu renders with MenuItems 1`] = `
     className="MenuList false"
   >
     <li
-      className="MenuItem"
+      className="MenuItem MenuItemName"
     >
       test
     </li>
     <li
-      className="MenuItem"
+      className="MenuItem undefined"
     >
       test2
     </li>
@@ -71,12 +71,12 @@ exports[`Menu renders with MenuItems and custom menu button 1`] = `
     className="MenuList false"
   >
     <li
-      className="MenuItem"
+      className="MenuItem MenuItemEmail"
     >
-      test
+      test@test.com
     </li>
     <li
-      className="MenuItem"
+      className="MenuItem MenuItemName"
     >
       test2
     </li>

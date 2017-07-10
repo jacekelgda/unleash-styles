@@ -31,9 +31,9 @@ class MenuItem extends Component {
 
 MenuItem.propTypes = {
   /** Text on menu item */
-  label: PropTypes.string,
+  label: PropTypes.string.isRequired,
   /** Type of menu item: link, important, email */
-  type: PropTypes.string,
+  type: PropTypes.string.isRequired,
 }
 
 export default MenuItem
