@@ -3,17 +3,17 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800');
 
 html, body {
-	max-width: 100%;
+  max-width: 100%;
 }
 body {
-	margin: 0;
-	padding: 0;
-	font: 16px/1.25 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font: 16px/1.25 'Open Sans', sans-serif;
 }
 
 /* avoiding scroll when a modal window is active */
 .no-scroll {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 ::selection {
@@ -21,19 +21,19 @@ body {
   color: #fff;
 }
 :focus {
-	outline-color: #ff5964;
+  outline-color: #ff5964;
 }
 .wrap {
-	margin: 0 auto;
-	max-width: calc(100% - 36px); /* 18px padding */
+  margin: 0 auto;
+  max-width: calc(100% - 36px); /* 18px padding */
 }
 @media screen and (min-width: 768px) {
-	.wrap {
-		max-width: calc(100% - 60px); /* 30px padding */
-	}
+  .wrap {
+    max-width: calc(100% - 60px); /* 30px padding */
+  }
 }
 @media screen and (min-width: 1280px) {
-	.wrap {
-		max-width: 1180px;
-	}
+  .wrap {
+    max-width: 1180px;
+  }
 }
