@@ -27,8 +27,12 @@ class Menu extends Component {
     const listClasses = [styles.MenuList, ((this.state.toggleShow || alwaysOpened) && styles.MenuList_active)].join(' ')
     return (
       <nav className={styles.Menu}>
-      	<div onClick={(e) => this.handleClick(e)}>{menuButton}</div>
-      	<ul className={listClasses}>
+      	<div
+          onClick={(e) => this.handleClick(e)}>{menuButton}
+        </div>
+      	<ul
+          className={listClasses}
+        >
           {this.props.children}
       	</ul>
       </nav>

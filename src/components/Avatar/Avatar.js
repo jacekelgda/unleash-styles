@@ -10,8 +10,16 @@ class Avatar extends Component {
     const { label } = this.props
     return (
       <div>
-      	<input type="checkbox" onClick={this.handleClick} className={styles.AvatarButton} id="avatar_button" />
-      	<label className={styles.AvatarButtonLabel} for="avatar_button">{label}</label>
+      	<input
+          type="checkbox"
+          onClick={this.handleClick}
+          className={styles.AvatarButton}
+          id="avatar_button"
+        />
+      	<label
+          className={styles.AvatarButtonLabel}
+          for="avatar_button">{label}
+        </label>
       </div>
     )
   }
