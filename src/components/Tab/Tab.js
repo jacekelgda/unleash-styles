@@ -9,12 +9,8 @@ class Tab extends Component {
   render() {
     const { label } = this.props
     return (
-      <li
-        className={styles.Tab}>
-        <a
-          href="index.html"
-          className={styles.TabLink}
-        >
+      <li className={styles.Tab}>
+        <a href="index.html" className={styles.TabLink}>
           <span>{label}</span>
         </a>
       </li>

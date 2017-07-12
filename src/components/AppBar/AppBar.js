@@ -9,9 +9,7 @@ class AppBar extends Component {
   render() {
     const { appBarLogo, children } = this.props
     return (
-      <header
-        className={styles.AppBar}
-      >
+      <header className={styles.AppBar}>
         {appBarLogo}
         {children}
     	</header>

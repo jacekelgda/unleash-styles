@@ -15,20 +15,14 @@ const typeStyle = {
 class MenuItem extends Component {
   renderLink(label) {
     return(
-      <a
-        href="#" className={styles.MenuItemLink}
-      >
-        {label}
-      </a>
+      <a href="#" className={styles.MenuItemLink}>{label}</a>
     )
   }
 
   render() {
     const { label, type } = this.props
     return (
-      <li
-        className={`${styles.MenuItem} ${typeStyle[type]}`}
-      >
+      <li className={`${styles.MenuItem} ${typeStyle[type]}`}>
         {type == TYPE_LINK ? this.renderLink(label) : label}
       </li>
     )
