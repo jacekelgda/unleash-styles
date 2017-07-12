@@ -1,5 +1,5 @@
 Menu item:
 
-    <Menu alwaysOpened="true">
+    <Menu isAlwaysOpened={true}>
       <MenuItem label="Item" type="important"/>
     </Menu>

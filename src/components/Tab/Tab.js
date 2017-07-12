@@ -6,11 +6,11 @@ import styles from './Tab.css'
  * Tab element on tabs component
  */
 class Tab extends Component {
-  render() {
+  render () {
     const { label } = this.props
     return (
       <li className={styles.Tab}>
-        <a href="index.html" className={styles.TabLink}>
+        <a href='index.html' className={styles.TabLink}>
           <span>{label}</span>
         </a>
       </li>
@@ -20,7 +20,7 @@ class Tab extends Component {
 
 Tab.propTypes = {
   /** Text on tab */
-  label: PropTypes.string,
+  label: PropTypes.string
 }
 
 export default Tab

@@ -6,13 +6,13 @@ import styles from './AppBar.css'
  * Universal bar that can be used as main header
  */
 class AppBar extends Component {
-  render() {
+  render () {
     const { appBarLogo, children } = this.props
     return (
       <header className={styles.AppBar}>
         {appBarLogo}
         {children}
-    	</header>
+      </header>
     )
   }
 }

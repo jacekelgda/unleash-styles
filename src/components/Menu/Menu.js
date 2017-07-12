@@ -9,32 +9,33 @@ import MenuButton from './MenuButton'
  * but with menu button click they show up
  */
 class Menu extends Component {
-  constructor(props) {
-    super(props);
+  constructor (props) {
+    super(props)
 
     this.state = {
       isShowing: false
     }
   }
 
-  handleClick() {
+  handleClick () {
     this.setState({
-      isShowing: !this.state.isShowing,
+      isShowing: !this.state.isShowing
     })
   }
 
-  render() {
+  render () {
     const { menuButton, isAlwaysOpened } = this.props
     const listClasses = classNames(
       styles.MenuList,
-      (this.state.isShowing || isAlwaysOpened) && styles.MenuList_active,
+      (this.state.isShowing || isAlwaysOpened) && styles.MenuList_active
     )
+
     return (
       <nav className={styles.Menu}>
-      	<div onClick={(e) => this.handleClick(e)}>{menuButton}</div>
-      	<ul className={listClasses}>
+        <div onClick={(e) => this.handleClick(e)}>{menuButton}</div>
+        <ul className={listClasses}>
           {this.props.children}
-      	</ul>
+        </ul>
       </nav>
     )
   }
@@ -42,14 +43,14 @@ class Menu extends Component {
 
 Menu.defaultProps = {
   menuButton: (<MenuButton />),
-  isAlwaysOpened: false,
+  isAlwaysOpened: false
 }
 
 Menu.propTypes = {
-  /** Component that triggers opening and closing menu*/
+  /** Component that triggers opening and closing menu */
   menuButton: PropTypes.node,
   /** Set true if you would like menu to be opened always */
-  isAlwaysOpened: PropTypes.bool,
+  isAlwaysOpened: PropTypes.bool
 }
 
 export default Menu

@@ -5,13 +5,13 @@ import styles from './Tabs.css'
  * Tabs component that hosts tab components
  */
 class Tabs extends Component {
-  render() {
+  render () {
     return (
       <nav className={styles.Tabs}>
-    		<ul className={styles.TabsList}>
+        <ul className={styles.TabsList}>
           {this.props.children}
-    		</ul>
-    	</nav>
+        </ul>
+      </nav>
     )
   }
 }

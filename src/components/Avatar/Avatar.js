@@ -6,19 +6,19 @@ import styles from './Avatar.css'
  * Avatar component which can be used in relation to user profile
  */
 class Avatar extends Component {
-  render() {
+  render () {
     const { label } = this.props
     return (
       <div>
-      	<input
-          type="checkbox"
+        <input
+          type='checkbox'
           onClick={this.handleClick}
           className={styles.AvatarButton}
-          id="avatar_button"
+          id='avatar_button'
         />
-      	<label
+        <label
           className={styles.AvatarButtonLabel}
-          for="avatar_button">{label}
+          for='avatar_button'>{label}
         </label>
       </div>
     )
@@ -27,7 +27,7 @@ class Avatar extends Component {
 
 Avatar.propTypes = {
   /** Label will be used for displaying text on avatar */
-  label: PropTypes.string,
+  label: PropTypes.string
 }
 
 export default Avatar
