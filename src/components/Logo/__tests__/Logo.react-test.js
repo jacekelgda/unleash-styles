@@ -1,13 +1,11 @@
 
 /* global test, expect */
 import React from 'react'
-import renderer from 'react-test-renderer'
+import { shallow } from 'enzyme'
 
 import Logo from '../index'
 
 test('Logo renders correctly', () => {
-  const tree = renderer.create(
-    <Logo />
-  ).toJSON()
-  expect(tree).toMatchSnapshot()
+  const wrapper = shallow(<Logo/>)
+  expect(wrapper).toMatchSnapshot()
 })

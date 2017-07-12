@@ -1,14 +1,14 @@
 import React from 'react'
-import renderer from 'react-test-renderer'
+import { shallow } from 'enzyme'
 import Tabs from '../Tabs'
 import Tab from '../Tab'
 
 test('Tabs renders correctly', () => {
-  const tree = renderer.create(
+  const wrapper = shallow(
     <Tabs>
       <Tab label="test" />
       <Tab label="test2" />
     </Tabs>
-  ).toJSON()
-  expect(tree).toMatchSnapshot()
+  )
+  expect(wrapper).toMatchSnapshot()
 })

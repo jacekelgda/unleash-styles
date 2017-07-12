@@ -1,11 +1,9 @@
 import React from 'react'
-import renderer from 'react-test-renderer'
-
+import { shallow } from 'enzyme'
 import AppBar from '../AppBar'
 
+
 test('AppBar renders correctly', () => {
-  const tree = renderer.create(
-    <AppBar/>
-  ).toJSON()
-  expect(tree).toMatchSnapshot()
+  const wrapper = shallow(<AppBar />)
+  expect(wrapper).toMatchSnapshot()
 })
