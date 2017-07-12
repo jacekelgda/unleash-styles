@@ -41,7 +41,7 @@ ShallowWrapper {
       "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <Menu
-        alwaysOpened={false}
+        isAlwaysOpened={false}
         menuButton={<MenuButton />}
 />,
       "_debugID": 1,
@@ -51,12 +51,12 @@ ShallowWrapper {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
-          "alwaysOpened": false,
+          "isAlwaysOpened": false,
           "menuButton": <MenuButton />,
         },
         "refs": Object {},
         "state": Object {
-          "toggleShow": false,
+          "isShowing": false,
         },
         "updater": Object {
           "enqueueCallback": [Function],
@@ -113,7 +113,7 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <Menu
-    alwaysOpened={false}
+    isAlwaysOpened={false}
     menuButton={<MenuButton />}
 />,
 }
@@ -178,7 +178,7 @@ ShallowWrapper {
       "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <Menu
-        alwaysOpened={false}
+        isAlwaysOpened={false}
         menuButton={<MenuButton />}
 >
         <MenuItem
@@ -197,7 +197,6 @@ ShallowWrapper {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
-          "alwaysOpened": false,
           "children": Array [
             <MenuItem
               label="test"
@@ -208,11 +207,12 @@ ShallowWrapper {
               type="emial"
 />,
           ],
+          "isAlwaysOpened": false,
           "menuButton": <MenuButton />,
         },
         "refs": Object {},
         "state": Object {
-          "toggleShow": false,
+          "isShowing": false,
         },
         "updater": Object {
           "enqueueCallback": [Function],
@@ -287,7 +287,7 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <Menu
-    alwaysOpened={false}
+    isAlwaysOpened={false}
     menuButton={<MenuButton />}
 >
     <MenuItem
@@ -365,7 +365,7 @@ ShallowWrapper {
       "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <Menu
-        alwaysOpened={false}
+        isAlwaysOpened={false}
         menuButton={
                 <Avatar
                         label="test"
@@ -388,7 +388,6 @@ ShallowWrapper {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
-          "alwaysOpened": false,
           "children": Array [
             <MenuItem
               label="test@test.com"
@@ -399,13 +398,14 @@ ShallowWrapper {
               type="important"
 />,
           ],
+          "isAlwaysOpened": false,
           "menuButton": <Avatar
             label="test"
 />,
         },
         "refs": Object {},
         "state": Object {
-          "toggleShow": false,
+          "isShowing": false,
         },
         "updater": Object {
           "enqueueCallback": [Function],
@@ -484,7 +484,7 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <Menu
-    alwaysOpened={false}
+    isAlwaysOpened={false}
     menuButton={
         <Avatar
             label="test"

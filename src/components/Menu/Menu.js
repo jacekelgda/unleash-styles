@@ -13,21 +13,21 @@ class Menu extends Component {
     super(props);
 
     this.state = {
-      toggleShow: false
+      isShowing: false
     }
   }
 
   handleClick() {
     this.setState({
-      toggleShow: !this.state.toggleShow,
+      isShowing: !this.state.isShowing,
     })
   }
 
   render() {
-    const { menuButton, alwaysOpened } = this.props
+    const { menuButton, isAlwaysOpened } = this.props
     const listClasses = classNames(
       styles.MenuList,
-      (this.state.toggleShow || alwaysOpened) && styles.MenuList_active,
+      (this.state.isShowing || isAlwaysOpened) && styles.MenuList_active,
     )
     return (
       <nav className={styles.Menu}>
@@ -42,14 +42,14 @@ class Menu extends Component {
 
 Menu.defaultProps = {
   menuButton: (<MenuButton />),
-  alwaysOpened: false,
+  isAlwaysOpened: false,
 }
 
 Menu.propTypes = {
   /** Component that triggers opening and closing menu*/
   menuButton: PropTypes.node,
   /** Set true if you would like menu to be opened always */
-  alwaysOpened: PropTypes.bool,
+  isAlwaysOpened: PropTypes.bool,
 }
 
 export default Menu
