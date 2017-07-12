@@ -17,7 +17,7 @@ ShallowWrapper {
         <MenuButton />
     </div>
     <ul
-        className="MenuList false"
+        className="MenuList"
     />
 </nav>,
   "nodes": Array [
@@ -30,7 +30,7 @@ ShallowWrapper {
             <MenuButton />
       </div>
       <ul
-            className="MenuList false"
+            className="MenuList"
       />
 </nav>,
   ],
@@ -85,7 +85,7 @@ ShallowWrapper {
                     <MenuButton />
           </div>
           <ul
-                    className="MenuList false"
+                    className="MenuList"
           />
 </nav>,
         "_debugID": 2,
@@ -98,7 +98,7 @@ ShallowWrapper {
                     <MenuButton />
           </div>
           <ul
-                    className="MenuList false"
+                    className="MenuList"
           />
 </nav>,
       },
@@ -136,7 +136,7 @@ ShallowWrapper {
         <MenuButton />
     </div>
     <ul
-        className="MenuList false"
+        className="MenuList"
     >
         <MenuItem
             label="test"
@@ -158,7 +158,7 @@ ShallowWrapper {
             <MenuButton />
       </div>
       <ul
-            className="MenuList false"
+            className="MenuList"
       >
             <MenuItem
                   label="test"
@@ -241,7 +241,7 @@ ShallowWrapper {
                     <MenuButton />
           </div>
           <ul
-                    className="MenuList false"
+                    className="MenuList"
           >
                     <MenuItem
                               label="test"
@@ -263,7 +263,7 @@ ShallowWrapper {
                     <MenuButton />
           </div>
           <ul
-                    className="MenuList false"
+                    className="MenuList"
           >
                     <MenuItem
                               label="test"
@@ -321,7 +321,7 @@ ShallowWrapper {
         />
     </div>
     <ul
-        className="MenuList false"
+        className="MenuList"
     >
         <MenuItem
             label="test@test.com"
@@ -345,7 +345,7 @@ ShallowWrapper {
             />
       </div>
       <ul
-            className="MenuList false"
+            className="MenuList"
       >
             <MenuItem
                   label="test@test.com"
@@ -436,7 +436,7 @@ ShallowWrapper {
                     />
           </div>
           <ul
-                    className="MenuList false"
+                    className="MenuList"
           >
                     <MenuItem
                               label="test@test.com"
@@ -460,7 +460,7 @@ ShallowWrapper {
                     />
           </div>
           <ul
-                    className="MenuList false"
+                    className="MenuList"
           >
                     <MenuItem
                               label="test@test.com"

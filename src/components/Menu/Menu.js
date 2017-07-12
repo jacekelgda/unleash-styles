@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import classNames from 'classnames'
 import styles from './Menu.css'
 import MenuButton from './MenuButton'
 
@@ -24,7 +25,10 @@ class Menu extends Component {
 
   render() {
     const { menuButton, alwaysOpened } = this.props
-    const listClasses = [styles.MenuList, ((this.state.toggleShow || alwaysOpened) && styles.MenuList_active)].join(' ')
+    const listClasses = classNames(
+      styles.MenuList,
+      (this.state.toggleShow || alwaysOpened) && styles.MenuList_active,
+    )
     return (
       <nav className={styles.Menu}>
       	<div onClick={(e) => this.handleClick(e)}>{menuButton}</div>
