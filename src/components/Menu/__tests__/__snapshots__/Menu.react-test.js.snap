@@ -318,6 +318,7 @@ ShallowWrapper {
     >
         <Avatar
             label="test"
+            onClick={[Function]}
         />
     </div>
     <ul
@@ -342,6 +343,7 @@ ShallowWrapper {
       >
             <Avatar
                   label="test"
+                  onClick={[Function]}
             />
       </div>
       <ul
@@ -369,6 +371,7 @@ ShallowWrapper {
         menuButton={
                 <Avatar
                         label="test"
+                        onClick={[Function]}
                 />
         }
 >
@@ -401,6 +404,7 @@ ShallowWrapper {
           "isAlwaysOpened": false,
           "menuButton": <Avatar
             label="test"
+            onClick={[Function]}
 />,
         },
         "refs": Object {},
@@ -433,6 +437,7 @@ ShallowWrapper {
           >
                     <Avatar
                               label="test"
+                              onClick={[Function]}
                     />
           </div>
           <ul
@@ -457,6 +462,7 @@ ShallowWrapper {
           >
                     <Avatar
                               label="test"
+                              onClick={[Function]}
                     />
           </div>
           <ul
@@ -488,6 +494,7 @@ ShallowWrapper {
     menuButton={
         <Avatar
             label="test"
+            onClick={[Function]}
         />
     }
 >

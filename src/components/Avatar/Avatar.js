@@ -25,6 +25,11 @@ class Avatar extends Component {
   }
 }
 
+Avatar.defaultProps = {
+  label: '',
+  onClick: val => val
+}
+
 Avatar.propTypes = {
   /** Label will be used for displaying text on avatar */
   label: PropTypes.string

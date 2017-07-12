@@ -46,6 +46,7 @@ ShallowWrapper {
       "_context": Object {},
       "_currentElement": <Avatar
         label="test"
+        onClick={[Function]}
 />,
       "_debugID": 1,
       "_hostContainerInfo": null,
@@ -55,6 +56,7 @@ ShallowWrapper {
         "context": Object {},
         "props": Object {
           "label": "test",
+          "onClick": [Function],
         },
         "refs": Object {},
         "state": null,
@@ -118,6 +120,7 @@ ShallowWrapper {
   "root": [Circular],
   "unrendered": <Avatar
     label="test"
+    onClick={[Function]}
 />,
 }
 `;
