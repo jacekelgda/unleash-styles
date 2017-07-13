@@ -6,6 +6,13 @@ import styles from './Avatar.css'
  * Avatar component which can be used in relation to user profile
  */
 class Avatar extends Component {
+  static defaultProps: Object
+
+  handleClick () {
+    const { onClick } = this.props
+    onClick()
+  }
+
   render () {
     const { label } = this.props
     return (
@@ -32,7 +39,9 @@ Avatar.defaultProps = {
 
 Avatar.propTypes = {
   /** Label will be used for displaying text on avatar */
-  label: PropTypes.string
+  label: PropTypes.string,
+  /** Function to be called after clicking avatar */
+  onClick: val => val
 }
 
 export default Avatar

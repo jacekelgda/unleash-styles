@@ -9,7 +9,13 @@ import MenuButton from './MenuButton'
  * but with menu button click they show up
  */
 class Menu extends Component {
-  constructor (props) {
+  static defaultProps: Object
+
+  state: {
+    isShowing: boolean
+  }
+
+  constructor (props: Object) {
     super(props)
 
     this.state = {
@@ -32,7 +38,7 @@ class Menu extends Component {
 
     return (
       <nav className={styles.Menu}>
-        <div onClick={(e) => this.handleClick(e)}>{menuButton}</div>
+        <div onClick={() => this.handleClick()}>{menuButton}</div>
         <ul className={listClasses}>
           {this.props.children}
         </ul>

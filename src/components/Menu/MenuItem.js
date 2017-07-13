@@ -11,7 +11,7 @@ const typeStyle = {
 }
 
 class MenuItem extends Component {
-  renderLink (label) {
+  renderLink (label: string) {
     return (
       <a href='#' className={styles.MenuItemLink}>{label}</a>
     )
