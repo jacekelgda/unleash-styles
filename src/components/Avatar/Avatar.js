@@ -41,7 +41,7 @@ Avatar.propTypes = {
   /** Label will be used for displaying text on avatar */
   label: PropTypes.string,
   /** Function to be called after clicking avatar */
-  onClick: val => val
+  onClick: PropTypes.func
 }
 
 export default Avatar

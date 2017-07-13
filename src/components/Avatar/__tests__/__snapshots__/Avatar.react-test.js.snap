@@ -12,7 +12,7 @@ ShallowWrapper {
     <input
         className="AvatarButton"
         id="avatar_button"
-        onClick={undefined}
+        onClick={[Function]}
         type="checkbox"
     />
     <label
@@ -27,7 +27,7 @@ ShallowWrapper {
       <input
             className="AvatarButton"
             id="avatar_button"
-            onClick={undefined}
+            onClick={[Function]}
             type="checkbox"
       />
       <label
@@ -82,7 +82,7 @@ ShallowWrapper {
           <input
                     className="AvatarButton"
                     id="avatar_button"
-                    onClick={undefined}
+                    onClick={[Function]}
                     type="checkbox"
           />
           <label
@@ -97,7 +97,7 @@ ShallowWrapper {
           <input
                     className="AvatarButton"
                     id="avatar_button"
-                    onClick={undefined}
+                    onClick={[Function]}
                     type="checkbox"
           />
           <label
