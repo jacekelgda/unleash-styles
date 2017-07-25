@@ -1,3 +1,4 @@
+/** @flow */
 import Logo from './components/Logo/Logo'
 import AppBar from './components/AppBar/AppBar'
 import Tab from './components/Tab/Tab'
