@@ -12,23 +12,25 @@ const typeStyle = {
 }
 
 class MenuItem extends Component {
-  renderLink (label: string) {
+  renderLink (label: string, href: string) {
     return (
-      <a href='#' className={styles.MenuItemLink}>{label}</a>
+      <a href={href} className={styles.MenuItemLink}>{label}</a>
     )
   }
 
   render () {
-    const { label, type } = this.props
+    const { label, type, href } = this.props
     return (
       <li className={`${styles.MenuItem} ${typeStyle[type]}`}>
-        {type === TYPE_LINK ? this.renderLink(label) : label}
+        {type === TYPE_LINK ? this.renderLink(label, href) : label}
       </li>
     )
   }
 }
 
 MenuItem.propTypes = {
+  /** Href property */
+  href: PropTypes.string,
   /** Text on menu item */
   label: PropTypes.string.isRequired,
   /** Type of menu item: link, important, email */
