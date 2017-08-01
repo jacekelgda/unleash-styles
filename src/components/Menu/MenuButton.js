@@ -9,14 +9,9 @@ import PropTypes from 'prop-types'
 class MenuButton extends Component {
   static defaultProps: Object
 
-  handleClick () {
-    const { onClick } = this.props
-    onClick()
-  }
-
   render () {
     return (
-      <div className={styles.MenuButton} onClick={this.handleClick} />
+      <div className={styles.MenuButton} onClick={this.props.onClick} />
     )
   }
 }

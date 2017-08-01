@@ -3,8 +3,6 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styles from './MenuItem.css'
 
-const TYPE_LINK = 'link'
-
 const typeStyle = {
   link: styles.MenuItemLink,
   important: styles.MenuItemName,
@@ -22,7 +20,7 @@ class MenuItem extends Component {
     const { label, type, href } = this.props
     return (
       <li className={`${styles.MenuItem} ${typeStyle[type]}`}>
-        {type === TYPE_LINK ? this.renderLink(label, href) : label}
+        {href ? this.renderLink(label, href) : label}
       </li>
     )
   }
