@@ -1,7 +1,7 @@
 {
   "name": "unleash-styles",
   "scripts": {
-    "postdeploy": "npm run styleguide:build"
+    "postdeploy": "npm install"
   },
   "env": {},
   "formation": {},
