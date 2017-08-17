@@ -4,7 +4,9 @@
     "postdeploy": "npm install"
   },
   "env": {
-    "NODE_ENV": "development"
+    "NODE_ENV": "development",
+    "NPM_CONFIG_PRODUCTION": false,
+    "NODE_MODULES_CACHE": false
   },
   "formation": {},
   "addons": [],
