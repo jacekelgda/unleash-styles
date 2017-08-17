@@ -1,0 +1,14 @@
+{
+  "name": "unleash-styles",
+  "scripts": {
+    "postdeploy": "npm run styleguide:build"
+  },
+  "env": {},
+  "formation": {},
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
