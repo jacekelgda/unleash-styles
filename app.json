@@ -5,8 +5,8 @@
   },
   "env": {
     "NODE_ENV": "development",
-    "NPM_CONFIG_PRODUCTION": false,
-    "NODE_MODULES_CACHE": false
+    "NPM_CONFIG_PRODUCTION": "false",
+    "NODE_MODULES_CACHE": "false"
   },
   "formation": {},
   "addons": [],
