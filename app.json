@@ -1,5 +1,6 @@
 {
   "name": "unleash-styles",
+<<<<<<< HEAD
   "scripts": {
     "postdeploy": "npm install"
   },
@@ -7,12 +8,24 @@
     "NODE_ENV": "development",
     "NPM_CONFIG_PRODUCTION": "false",
     "NODE_MODULES_CACHE": "false"
+=======
+  "scripts": {},
+  "env": {
+    "NPM_CONFIG_PRODUCTION": "false",
+    "NODE_ENV": "development"
+>>>>>>> Heroku PR app preview
   },
   "formation": {},
   "addons": [],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "url": "https://github.com/hone/heroku-buildpack-static"
+>>>>>>> Heroku PR app preview
     }
   ]
 }
