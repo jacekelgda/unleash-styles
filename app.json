@@ -3,7 +3,9 @@
   "scripts": {
     "postdeploy": "npm install"
   },
-  "env": {},
+  "env": {
+    "NODE_ENV": "development"
+  },
   "formation": {},
   "addons": [],
   "buildpacks": [
