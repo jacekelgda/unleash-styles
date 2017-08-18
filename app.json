@@ -1,11 +1,14 @@
 {
   "name": "unleash-styles",
-  "scripts": {},
+  "scripts": {
+    "postdeploy": "./node_modules/.bin/styleguidist build"
+  },
   "env": {},
   "formation": {},
   "addons": [],
   "buildpacks": [
     {
+      "url": "heroku/nodejs",
       "url": "https://github.com/hone/heroku-buildpack-static"
     }
   ]
