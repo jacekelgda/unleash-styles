@@ -8,9 +8,6 @@
   "addons": [],
   "buildpacks": [
     {
-      "url": "https://github.com/hone/heroku-buildpack-static"
-    },
-    {
       "url": "heroku/nodejs"
     }
   ]
