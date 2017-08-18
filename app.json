@@ -2,6 +2,7 @@
   "name": "unleash-styles",
   "scripts": {},
   "env": {
+    "NPM_CONFIG_PRODUCTION": "false",
     "NODE_ENV": "development"
   },
   "formation": {},
