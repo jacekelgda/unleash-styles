@@ -36,7 +36,8 @@
     "babel-jest": "^20.0.3",
     "babel-preset-flow": "^6.23.0",
     "babel-preset-react": "^6.24.1",
-    "style-loader": "^0.18.2"
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9"
   },
   "devDependencies": {
     "css-loader": "^0.28.4",
@@ -48,8 +49,6 @@
     "react-styleguidist": "^5.5.1",
     "react-test-renderer": "^15.6.1",
     "standard": "^10.0.2",
-    "url-loader": "^0.5.9",
-    "webpack": "^3.0.0"
   },
   "jest": {
     "moduleNameMapper": {
