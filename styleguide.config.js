@@ -22,6 +22,5 @@ module.exports = {
   ],
   styleguideComponents: {
     Wrapper: path.join(__dirname, '/styleguidist/style/wrapper/Wrapper.js')
-  },
-  serverPort: parseInt(process.env.PORT)
+  }
 };
