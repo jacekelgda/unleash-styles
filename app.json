@@ -1,8 +1,6 @@
 {
   "name": "unleash-styles",
-  "scripts": {
-    "postdeploy": "./node_modules/.bin/styleguidist build"
-  },
+  "scripts": {},
   "env": {},
   "formation": {},
   "addons": [],
