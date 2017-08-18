@@ -3,11 +3,7 @@
   "scripts": {
     "postdeploy": "./node_modules/.bin/styleguidist build"
   },
-  "env": {
-    "NODE_ENV": "development",
-    "NPM_CONFIG_PRODUCTION": "false",
-    "NODE_MODULES_CACHE": "false"
-  },
+  "env": {},
   "formation": {},
   "addons": [],
   "buildpacks": [
