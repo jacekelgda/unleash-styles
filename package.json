@@ -9,9 +9,9 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "lint": "standard src/**/*.js",
-    "build": "styleguidist build",
+    "build": "webpack -p",
     "deploy": "./deploy-ghpages.sh",
-    "prepublish": "webpack -p"
+    "prepublish": "npm run build"
   },
   "repository": "git+https://github.com/x-team/unleash-styles.git",
   "license": "ISC",
